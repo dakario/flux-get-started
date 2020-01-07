@@ -10,6 +10,9 @@ metadata:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: glob:3.1.*
     fluxcd.io/tag.podinfod: glob:3.1.*
+    fluxcd.io/locked_user: modoulobolysow <msow@gainde2000.sn>
+    fluxcd.io/locked: 'true'
+    fluxcd.io/locked_msg: 1.4.2 does not work for us
 spec:
   strategy:
     rollingUpdate:
